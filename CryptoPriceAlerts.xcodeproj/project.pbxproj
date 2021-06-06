@@ -99,12 +99,10 @@
 		759D0A71266C28E10015E4C4 /* CryptoPriceAlerts */ = {
 			isa = PBXGroup;
 			children = (
-				759D0A72266C28E10015E4C4 /* CryptoPriceAlertsApp.swift */,
-				759D0A74266C28E10015E4C4 /* ContentView.swift */,
-				759D0A76266C28E30015E4C4 /* Assets.xcassets */,
-				759D0A7B266C28E30015E4C4 /* Persistence.swift */,
-				759D0A80266C28E30015E4C4 /* Info.plist */,
-				759D0A7D266C28E30015E4C4 /* CryptoPriceAlerts.xcdatamodeld */,
+				759D0AA3266D79FD0015E4C4 /* App */,
+				759D0AA5266D7A270015E4C4 /* UI */,
+				759D0AA4266D7A090015E4C4 /* Persistence */,
+				759D0AA2266D79F20015E4C4 /* Services */,
 				759D0A78266C28E30015E4C4 /* Preview Content */,
 			);
 			path = CryptoPriceAlerts;
@@ -134,6 +132,40 @@
 				759D0A96266C28E30015E4C4 /* Info.plist */,
 			);
 			path = CryptoPriceAlertsUITests;
+			sourceTree = "<group>";
+		};
+		759D0AA2266D79F20015E4C4 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		759D0AA3266D79FD0015E4C4 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				759D0A80266C28E30015E4C4 /* Info.plist */,
+				759D0A76266C28E30015E4C4 /* Assets.xcassets */,
+				759D0A72266C28E10015E4C4 /* CryptoPriceAlertsApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		759D0AA4266D7A090015E4C4 /* Persistence */ = {
+			isa = PBXGroup;
+			children = (
+				759D0A7B266C28E30015E4C4 /* Persistence.swift */,
+				759D0A7D266C28E30015E4C4 /* CryptoPriceAlerts.xcdatamodeld */,
+			);
+			path = Persistence;
+			sourceTree = "<group>";
+		};
+		759D0AA5266D7A270015E4C4 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				759D0A74266C28E10015E4C4 /* ContentView.swift */,
+			);
+			path = UI;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -429,7 +461,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"CryptoPriceAlerts/Preview Content\"";
 				DEVELOPMENT_TEAM = T443E98JT7;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = CryptoPriceAlerts/Info.plist;
+				INFOPLIST_FILE = CryptoPriceAlerts/App/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -451,7 +483,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"CryptoPriceAlerts/Preview Content\"";
 				DEVELOPMENT_TEAM = T443E98JT7;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = CryptoPriceAlerts/Info.plist;
+				INFOPLIST_FILE = CryptoPriceAlerts/App/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

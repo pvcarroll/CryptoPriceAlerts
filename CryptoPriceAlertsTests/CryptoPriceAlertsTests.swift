@@ -1,10 +1,3 @@
-//
-//  CryptoPriceAlertsTests.swift
-//  CryptoPriceAlertsTests
-//
-//  Created by Paul Carroll on 6/5/21.
-//
-
 import XCTest
 @testable import CryptoPriceAlerts
 

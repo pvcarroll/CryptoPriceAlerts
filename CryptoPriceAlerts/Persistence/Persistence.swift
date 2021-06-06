@@ -1,10 +1,3 @@
-//
-//  Persistence.swift
-//  CryptoPriceAlerts
-//
-//  Created by Paul Carroll on 6/5/21.
-//
-
 import CoreData
 
 struct PersistenceController {

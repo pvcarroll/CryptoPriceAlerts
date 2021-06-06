@@ -1,10 +1,3 @@
-//
-//  CryptoPriceAlertsUITests.swift
-//  CryptoPriceAlertsUITests
-//
-//  Created by Paul Carroll on 6/5/21.
-//
-
 import XCTest
 
 class CryptoPriceAlertsUITests: XCTestCase {
