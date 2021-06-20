@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		75107A3E267E679E0072DCC6 /* CryptoService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75107A3D267E679E0072DCC6 /* CryptoService.swift */; };
+		75107A6E267EA8BA0072DCC6 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75107A6D267EA8BA0072DCC6 /* APIClient.swift */; };
 		759D0A73266C28E10015E4C4 /* CryptoPriceAlertsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 759D0A72266C28E10015E4C4 /* CryptoPriceAlertsApp.swift */; };
 		759D0A75266C28E10015E4C4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 759D0A74266C28E10015E4C4 /* ContentView.swift */; };
 		759D0A77266C28E30015E4C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 759D0A76266C28E30015E4C4 /* Assets.xcassets */; };
@@ -15,6 +17,7 @@
 		759D0A7F266C28E30015E4C4 /* CryptoPriceAlerts.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 759D0A7D266C28E30015E4C4 /* CryptoPriceAlerts.xcdatamodeld */; };
 		759D0A8A266C28E30015E4C4 /* CryptoPriceAlertsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 759D0A89266C28E30015E4C4 /* CryptoPriceAlertsTests.swift */; };
 		759D0A95266C28E30015E4C4 /* CryptoPriceAlertsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 759D0A94266C28E30015E4C4 /* CryptoPriceAlertsUITests.swift */; };
+		759D0AA7266DAA020015E4C4 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 759D0AA6266DAA020015E4C4 /* ViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		75107A3D267E679E0072DCC6 /* CryptoService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoService.swift; sourceTree = "<group>"; };
+		75107A6D267EA8BA0072DCC6 /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
 		759D0A6F266C28E10015E4C4 /* CryptoPriceAlerts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CryptoPriceAlerts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		759D0A72266C28E10015E4C4 /* CryptoPriceAlertsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoPriceAlertsApp.swift; sourceTree = "<group>"; };
 		759D0A74266C28E10015E4C4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -49,6 +54,7 @@
 		759D0A90266C28E30015E4C4 /* CryptoPriceAlertsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CryptoPriceAlertsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		759D0A94266C28E30015E4C4 /* CryptoPriceAlertsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoPriceAlertsUITests.swift; sourceTree = "<group>"; };
 		759D0A96266C28E30015E4C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		759D0AA6266DAA020015E4C4 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,6 +143,8 @@
 		759D0AA2266D79F20015E4C4 /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				75107A3D267E679E0072DCC6 /* CryptoService.swift */,
+				75107A6D267EA8BA0072DCC6 /* APIClient.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -164,6 +172,7 @@
 			isa = PBXGroup;
 			children = (
 				759D0A74266C28E10015E4C4 /* ContentView.swift */,
+				759D0AA6266DAA020015E4C4 /* ViewModel.swift */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -297,10 +306,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				759D0AA7266DAA020015E4C4 /* ViewModel.swift in Sources */,
+				75107A6E267EA8BA0072DCC6 /* APIClient.swift in Sources */,
 				759D0A7C266C28E30015E4C4 /* Persistence.swift in Sources */,
 				759D0A7F266C28E30015E4C4 /* CryptoPriceAlerts.xcdatamodeld in Sources */,
 				759D0A75266C28E10015E4C4 /* ContentView.swift in Sources */,
 				759D0A73266C28E10015E4C4 /* CryptoPriceAlertsApp.swift in Sources */,
+				75107A3E267E679E0072DCC6 /* CryptoService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
